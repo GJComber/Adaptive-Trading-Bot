@@ -23,10 +23,10 @@ Some adjustments affected the model negatively, but none appeared to improve the
 To compare the models I have some images of the Cumulative return Plot showing actual returns against strategy returns.
 
 Baseline Model SVM
-![Baseline model image](../Images/Baseline_SVM.png) 
+![Baseline model image](./Images/Baseline_SVM.png) 
 
 Tuned SVM model
-![Tuned SVM model image](../Images/Tuned_SVM.png)
+![Tuned SVM model image](./Images/Tuned_SVM.png)
 
 
 
@@ -39,7 +39,7 @@ I varied the number of estimators in the AdaBoost classifier model with minimal 
 I then added an svc base_estimator which produced a small improvement in accuracy.
 
 ADABoost model
-![AdaBoost model image](../Images/Tuned_ADA.png)
+![AdaBoost model image](./Images/Tuned_ADA.png)
 
 ### Strong correlation
 
@@ -55,7 +55,7 @@ The reason for the dramatic adjustment was to incorporate a better balance of ma
 Again both models maintained a correlation to one another, meaning both had a significant improvement in performance.
 
 24 Month SVM model
-![24Month SVM model image](../Images/24Month_SVM.png) 
+![24Month SVM model image](./Images/24Month_SVM.png) 
 
 24 Month AdaBoost model
-![24Month ADA model image](../Images/24Month_ADA.png)
+![24Month ADA model image](./Images/24Month_ADA.png)
